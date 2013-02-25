@@ -1,0 +1,1 @@
+<div style="z-index:998;background-image: url('/cloud/img/preheader-shadow.png?v=');background-repeat:repeat-x;width:100%;height:9px;position:absolute;">&nbsp;</div> 

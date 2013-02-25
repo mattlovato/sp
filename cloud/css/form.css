@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+  
+body {
+	font-family:'FrutigerLTW01-45Light', Verdana, Geneva, sans-serif;
+	margin:0;
+	color:#666;
+	font-size:16px;
+}
+
+
+
+.kerioForm textarea:hover{
+ border:none;
+ outline:none;
+}
+
+
+.kerioForm input:focus{
+ outline:none;
+ background-color:#ffffff;	
+}
+
+.kerioForm {
+	left:0px;
+	margin-left:0px;
+	width:100%;
+}
+
+.createAccountTop .resendLink {
+	color: #0086BB;
+	text-decoration: underline;
+}
+
+.kerioForm .verificationAlert
+{
+	color: #77002a;
+}
+
+.kerioForm input, .kerioForm textarea, .kerioForm select {
+  z-index: 0;
+  padding: 6px;
+  margin: 0;
+  font: inherit;
+ }
+
+.kerioForm input, .button-row input {
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ border-radius: 4px;
+}
+.focus { color: #8F8F8F; }
+.typing { color: #99B32D; }
+
+/* Hack to remove Safari's extra padding. Remove if you don't care about pixel-perfection. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .kerioForm input, .kerioForm textarea, .kerioForm select { padding: 4px; }
+}
+
+.formMail {
+	margin-bottom:20px;
+	font-size:20px;
+}
+
+.closedHeading {
+    margin-top: 22px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.closedHeading {
+    margin-top: 22px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.verificationAlert {
+	display:none;
+	font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;
+	font-size:12px;
+	margin-top:-10px;
+}
+
+.checkEmailWrap {
+	display: none;
+}
+
+.createAccountWrapTop .checkEmailWrap {
+	padding-top: 80px;
+}
+
+#greenbar .createAccountWrapTop .checkEmailWrap {
+	padding-top: 0;
+}
+
+#greenbar .message {
+	color:white; 
+	text-align: center; 
+	display: block; 
+	padding-bottom: 20px;
+}
+
+#greenbar .message a {
+	color: white;
+}

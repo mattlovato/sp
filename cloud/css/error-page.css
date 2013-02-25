@@ -1,0 +1,10 @@
+body{margin:0; padding:0; background-color:#fff; color: black}
+table{margin-top: 88px; margin-left:auto;margin-right:auto;width:800px}
+table td{vertical-align:top}
+table .k-message{padding:1em}
+table .k-message h1{font-size:19px;font-weight:300;margin-top:0;margin-bottom:26px}
+table .k-message p{margin:1em 0}
+table .k-message ul{margin:1em 0;padding-left:0;list-style:none outside none}
+table .k-message a{color:#0086bb;text-decoration:none}
+table .k-message a:hover{text-decoration:underline}
+table img{margin-left:1em}

@@ -1,0 +1,575 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+BODY {
+	background: url('../img/lightDust.png?v=') #f7f7f7;
+	font-family: Helvetica, Arial;
+	color: #0086bb;
+}
+
+#top {
+	width: 100%;
+	height: 38px;
+	background: #64a500 url('../img/hardDust.png?v=');
+	position: absolute;
+	top: 0;
+}
+
+#productLogo {
+	background: url('../img/logo.png?v=') no-repeat center center;
+	width: 140px;
+	height: 38px;
+	float: left;
+}
+
+#userName {
+	height: 38px;
+	line-height: 38px;
+	font-size: 13px;
+	color: #fff;
+	float: right;
+	padding-right: 26px;
+}
+
+#userPhoto {
+	float: left;
+	width: 22px;
+	height: 22px;
+	border: 2px solid #fff;
+	margin-right: 13px;
+	margin-top: 6px;
+}
+
+#loginRegister {
+	float: right;
+	font-size: 12px;
+	line-height: 34px;
+}
+
+#loginRegister a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#loginRegister a:hover {
+	text-decoration: underline;
+}
+
+#container {
+	margin: 0px auto;
+	width: 650px;
+	background: #fff;
+	box-shadow: 0px 0px 8px #dadada;
+	-webkit-box-shadow: 0px 0px 8px #dadada;
+	-moz-box-shadow:    0px 0px 8px #dadada;
+	display: table;
+}
+
+#containerLogin {
+	width: 330px;
+	margin-top: 130px;
+	margin: 130px auto 0 auto;
+	background: #fff;
+	box-shadow: 0px 0px 8px #dadada;
+	-webkit-box-shadow: 0px 0px 8px #dadada;
+	-moz-box-shadow:    0px 0px 8px #dadada;
+	display: table;
+}
+
+#containerLogin .pageHeading {
+	margin-top: 0px;
+}
+
+.pageHeading {
+	margin-top: 38px;
+	font-size: 26px;
+	border-bottom: 1px solid #eee;
+	padding: 26px;
+	font-weight:300;
+}
+
+#text {
+	font-size: 13px;
+	/*padding: 24px 26px 0px 26px;
+	width: 273px;
+	float: left;*/
+}
+
+.wide {
+	/*width: 598px !important;
+	margin-bottom: 26px;*/
+}
+
+#text p {
+	margin-top: 32px;
+	float: left;
+	line-height: 19px;
+}
+
+.moreText {
+	margin-top: 60px;
+	font-size: 19px;
+	font-weight: 300;
+}
+
+.inv {
+	margin-top: 40px;
+}
+
+.mailLink {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.infoText {
+	font-size: 13px;
+	color: #222;
+	line-height: 19px;
+}
+
+#text img {
+	margin-left: 35px;
+}
+
+#formMail {
+	margin: 0px auto;
+	padding: 0px;
+	width: 312px;
+	float: left;
+}
+
+.mailInput {
+	width: 271px;
+	text-indent: 12px;
+	border: 1px solid #ccc;
+	height: 30px;
+	font-size: 13px;
+	color: #0086bb;
+	float: left;
+	margin-bottom: 13px;
+}
+
+.submitEmail {
+	margin-top: 13px;
+	margin-bottom: 26px;
+	float: right;
+	width: 102px;
+	height: 32px;
+	background: #64a500;
+	font-size: 13px;
+	color: #fff;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #263f00;
+}
+
+.submitEmail:focus {
+	outline: 1px dotted black;
+	outline-offset: -1px;
+}
+
+#formSecond {
+	padding-top: 40px;
+	margin: 0px auto;
+	padding: 24px 26px 0px 26px;
+	width: 273px;
+	float: left;
+}
+
+#verificationAlert {
+	border: 0px solid #bb0d00;
+	background: #ffefee;
+	width: 227;
+	color: #bb0d00;
+	margin-bottom: 12px;
+	min-height: 26px;
+	line-height: 26px;
+	text-indent: 12px;
+	font-size: 13px;
+}
+
+.companyInput, .nameInput, .nameInputInv, .pwdInput, .mailLogin {
+	width: 271px;
+	text-indent: 12px;
+	border: 1px solid #ccc;
+	height: 30px;
+	font-size: 13px;
+	color: #0086bb;
+	float: left;
+	margin-bottom: 13px;
+}
+
+.nameInputInv {
+	margin-top: 0px;
+}
+
+#pwdStrenght {
+	font-size: 13px;
+	display: none;
+	float: left;
+}
+
+.pwdWeak {
+	color: #999;
+}
+
+.pwdGood {
+	color: #999;
+}
+
+.pwdStrong {
+	color: #999;
+}
+
+#pwdMessage {
+	margin-top: -7px;
+	margin-left: 5px;
+}
+
+
+.mailLogin {
+}
+
+#companyUrl, #companyUrlMessage {
+	display: none;
+	width: 530px;
+	background: #fff;
+	float: left;
+	font-size: 12px;
+	color: #999;
+}
+
+#companyUrl {
+	border-top: 1px solid #c3dfa7;
+	height: 39px;
+	padding-top: 9px;
+}
+
+#companyUrlMessage {
+	text-indent: 12px;
+	color: #86c54c;
+}
+
+input#urlInput {
+    position: relative;
+	display: none;
+	xborder: none;
+    border: solid 1px;
+    border-color: transparent;
+	color: #0086bb;
+	float: left;
+	width: 40%;
+}
+
+input#urlInput:focus {
+    top: -4px;
+    margin: 0;
+    padding: 2px;
+    border-color: gainsboro;
+}
+
+.editPermalink {
+	float: left;
+	margin: 0px;
+	text-indent: 0px;
+	color: red;
+	cursor: pointer;
+}
+
+.float {
+	float: left;
+}
+
+.floatPadding {
+	float: left;
+	margin-left: 12px;
+}
+
+.pwdInput {
+	width: 213px;
+}
+
+.pwdToggleContainer {
+	border: 1px solid #ccc;
+	margin-left: 6px;
+	width: 50px;
+	height: 30px;
+	background: #fff;
+	float: left;
+}
+
+.pwdToggle {
+	width: 50px;
+	height: 30px;
+	background: #fff;
+	line-height: 30px;
+	font-size: 10px;
+	cursor: pointer;
+	text-align:center;
+}
+
+.pwdToggle:hover {
+	background: #eee;
+}
+
+.submitStep2 {
+	margin-top: 13px;
+	margin-bottom: 26px;
+	float: right;
+	width: 102px;
+	height: 32px;
+	background: #64a500;
+	font-size: 13px;
+	color: #fff;
+	box-sizing:border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #263f00;
+}
+
+.submitStep2:hover {
+	background: #539400;
+	border: 1px solid #1a2e00;
+	cursor: pointer;
+}
+
+.submitStep2:focus {
+	outline: 1px dotted black;
+	outline-offset: -1px;
+}
+
+
+input:focus {
+	outline: none;
+}
+
+input:active {
+	outline: none;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: #222;
+	font-size: 19px;
+	margin-bottom: 15px;
+	font-weight: 300;
+}
+
+.message {
+	color: #222;
+	line-height: 19px;
+}
+
+.message a {
+	color: #006796;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.messageFail {
+	widtah: 100%;
+	border: 1px solid #bba000;
+	background: #feffc9;
+	color: #222;
+	font-size: 13px;
+	float: left;
+	margin: 26px;
+}
+
+.messageFailText {
+	margin: 20px;
+}
+
+.messageFailBack {
+	float: right;
+	margin-right: 26px;
+	height: 32px;
+	line-height: 32px;
+	margin-bottom:26px;
+
+}
+
+.messageFailBack a {
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 0 13px;
+	background: #64a500;
+}
+
+.messageFailBack a:hover  {
+	background: #539400;
+}
+
+.forgotPwd {
+	float: left;
+	color: #999;
+	font-size: 13px;
+	line-height: 19px;
+}
+
+.forgotPwd a {
+	color: #0086bb;
+	text-decoration: none;
+}
+
+.invalidField {
+	color: #bb0d00;
+	border: 1px solid #bb0d00;
+}
+
+.invalidField::-webkit-input-placeholder {
+    color:    #bb0d00;
+}
+.invalidField:-moz-placeholder {
+    color:    #bb0d00v;
+}
+.invalidField:-ms-input-placeholder {
+    color:    #bb0d00;
+}
+
+
+@media all and (max-width: 699px) {
+
+#productLogo {
+	background: none;
+	display: none;
+}
+
+#loginRegister {
+	float: right;
+	font-size: 12px;
+	padding-top: 7px;
+}
+
+#loginRegister a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#loginRegister a:hover {
+	text-decoration: underline;
+}
+
+
+#container {
+	width: 100%;
+}
+
+#containerLogin {
+	width: 100%;
+	margin-top: 38px;
+}
+
+.pageHeading {
+	padding-left: 10%;
+}
+
+#text {
+	padding: 0px;
+	margin: 0 0 0 10%;
+	width: 80%;
+	font-size: 18px;
+	float: left;
+}
+
+#text p {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.moreText {
+	margin-top: 26px;
+}
+
+#formMail, #formSecond {
+	background: none;
+	margin: 10px 0 0 0;
+	padding: 0px;
+	width: 100%;
+}
+
+.mailInputDivider {
+	display: none;
+}
+
+.mailInput  {
+	width: 80%;
+	margin-left: 10%;
+	float: none;
+	margin-bottom: 10px;
+	font-size: 18px;
+	padding: 0px;
+	text-indent: 12px;
+	border-radius: 10px;
+}
+
+#verificationAlert {
+	width: 80%;
+	margin-left: 10%;
+	float: left;
+}
+
+.companyInput, .nameInput, .nameInputInv, .pwdInput, .mailLogin {
+	width: 80%;
+	margin-left: 10%;
+	padding: 0px;
+	text-indent: 10px;
+	font-size: 13px;
+	float: none;
+}
+
+.pwdToggleContainer {
+	display: none;
+}
+
+#pwdStrenght {
+	width: 80%;
+	margin-left: 10%;
+	margin-top:12px;
+	border-radius: 10px;
+	min-height: 24px;
+	line-height: 24px;
+	font-size: 12px; 
+	font-weight: bold;
+	display: none;
+}
+
+#companyUrl {
+	width: 80%;
+	margin-left: 10%;
+}
+
+#companyUrlMessage {
+	width: 100%;
+}
+
+.submitEmail, .submitStep2 {
+	float: none;
+	width: 80%;
+	margin-left: 10%;
+	padding-left: 10px;
+}
+
+.logo {
+	background: none;
+	display: none;
+}
+
+.forgotPwd {
+	padding-left:10%;
+	padding-right: 10%;
+}
+
+}

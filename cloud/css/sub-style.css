@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+#hidemenu {
+	position:fixed;
+	margin: 0px; 
+	padding: 0px; 
+	left: 0px; 
+	top: 0px; 
+	width: 100%; 
+	height: 33px; 
+	display:none;
+	float:right;
+	z-index:998;
+}
+
+#hidemenu-frame {
+	margin-top:-10px;
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('../img/opacitybg-green80.png?v=');
+	height:48px;
+	overflow:hidden;
+	z-index:999;
+
+}
+
+.menuwatermark {
+	width:40px;
+	margin-top:15px;
+	margin-left:140px;
+}
+
+.menuwatermarkhover img {
+	position:absolute;
+	width:40px;
+	margin-top:15px;
+	margin-left:140px;
+	opacity:0;
+	-webkit-transition: opacity .4s ease-in-out;
+  	-moz-transition: opacity .4s ease-in-out;
+  	-o-transition: opacity .4s ease-in-out;
+  	transition: opacity .4s ease-in-out;
+	border:none;
+}
+
+.menuwatermarkhover img.bottom:hover {
+	opacity:1;
+	cursor:pointer;
+}
+
+
+.subbody-frame {
+	width:850px;
+	box-shadow:0 2px 8px #CCC;
+	background-color:#FFFFFF;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:30px;
+	padding-bottom:0px;
+}
+
+.subpricing {
+	width:400px;
+	height:300px;
+	float:left;
+	margin-left:20px;
+}
+
+
+.subloginblock {
+	display:none;
+	background-image:url('../img/grey-bg-texture.jpg?v=');
+	background-repeat: repeat;
+}
+
+.sublogin-frame {
+	width: 840px; 
+	font-family:Helvetica, Arial, sans-serif;
+	margin-right: auto; 
+	margin-left: auto;
+	overflow:hidden;
+}
+
+
+.divider-bottom {
+	background-image: url('../img/divider-bottom.png?v=');
+	width:100%;
+	height:2px;
+	background-size:100% 100%;
+	z-index:999;
+	margin-top:-7px;
+	margin-bottom:0px;
+	}
+	
+.createbutton-inline{
+padding: 5px 10px;
+border: none;
+background: #1081B5;
+height: 30px !important;
+width:156px !important;
+line-height: 30px;
+font-size: 16px;
+margin-right:10px;
+font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;
+cursor: pointer;
+text-align:center;
+color:#ffffff;
+}	
+	
+	
+	
+.parablock {
+	padding-left:50px;
+	width:430px;
+	display:inline-block;
+}	
+	
+	
+.textblock {
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	text-align:center;
+}
+
+.screenshot{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	padding-left:10px;
+}
+
+.screenshot-slide{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	height:500px;
+}
+
+	
+
+
+.subpara {
+	font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	vertical-align:bottom;
+	line-height:23px;
+	padding-top:15px;
+}
+
+.offer {
+	color:white;
+	text-align:center;
+	font-size:30px;
+	padding-top:30px;
+	font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;
+
+}
+
+.subtext {
+	font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height:23px;
+}
+
+.spacer {
+	height:70px;
+}
+
+.hideme {
+	opacity:0;
+	z-index:0;
+}
+
+
+.on {
+	background-image:url('../img/opacitybg.png?v=');
+}
+
+.bluebg {
+	background-image:url('../img/opacitybg-blue80.png?v=');
+	}
+	
+.numberball {
+	font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;
+	background-color: #a53300;
+	display: block;
+	padding: 4px 7px 2px;
+	border-radius: 25px;
+	width: 10px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	margin: -19px auto -10px;
+	vertical-align:top;
+	}	
+	
+.subbody-frame-nopad {
+	width:850px;
+	box-shadow:0 2px 8px #CCC;
+	background-color:#FFFFFF;
+	height:100%;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+
+
+
+.menucreate {
+	height:100%;
+	text-align:center;
+	display:inline-block;
+	vertical-align:middle;
+	padding-top:10px;
+	padding-bottom:9px;
+	float:right;
+	}	
+
+
+.roomsub {
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center top;
+    overflow:auto;
+	top:0;
+	bottom:0;
+	min-height:118px;
+}
+
+
+.signup_top .signup_mid {display:none;}
+.signup_mid .signup_top {display:none;}
+
+
+.shadowdivider {
+	width:814px;
+	height:18px;
+	margin-left:20px;
+	margin:50px 0 10px;
+}
+
+.nextpage {
+		width:100%;
+		margin-top:75px;
+		padding-bottom:25px;
+/* CSS */
+background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiNmYWZhZmEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9InJnYigyMzIsIDIzMiwgMjMzKSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJyZ2IoMjMyLCAyMzIsIDIzMykiIC8+PHJlY3QgeD0iLTUwJSIgeT0iLTEwMCUiIHdpZHRoPSIyMDAlIiBoZWlnaHQ9IjIwMCUiIGZpbGw9InVybCgjZykiIC8+PC9zdmc+);
+background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 740, color-stop(0%, #ffffff), color-stop(50%, #fafafa), color-stop(100%, rgb(232, 232, 233)));
+background-image: -webkit-radial-gradient(center top, 100% 100%, #ffffff 0%, #fafafa 50%, rgb(232, 232, 233) 100%);
+background-image: -moz-radial-gradient(center top, 100% 100%, #ffffff 0%, #fafafa 50%, rgb(232, 232, 233) 100%);
+background-image: -ms-radial-gradient(center top, 100% 100%, #ffffff 0%, #fafafa 50%, rgb(232, 232, 233) 100%);
+background-image: -o-radial-gradient(center top, 100% 100%, #ffffff 0%, #fafafa 50%, rgb(232, 232, 233) 100%);
+background-image: radial-gradient(100% 100% at center top, #ffffff 0%, #fafafa 50%, rgb(232, 232, 233) 100%);
+
+/* SVG */
+<svg xmlns="http://www.w3.org/2000/svg">
+	<radialGradient id="g">
+		<stop offset="0" stop-color="#ffffff"/>
+		<stop offset="0.5" stop-color="#fafafa"/>
+		<stop offset="1" stop-color="rgb(232, 232, 233)"/>
+	</radialGradient>
+	<rect x="0%" y="0%" width="100%" height="100%" fill="rgb(232, 232, 233)" />
+	<rect x="-50%" y="-100%" width="200%" height="200%" fill="url(#g)" />
+</svg>
+
+/* Canvas */
+var g = ctx.createRadialGradient(370, 0, 0, 370, 0, 740);
+g.addColorStop(0, #ffffff);
+g.addColorStop(0.5, #fafafa);
+g.addColorStop(1, rgb(232, 232, 233));
+ctx.setTransform(1, 0, 0, 0.408108, 0, 0);
+ctx.fillStyle = g;
+ctx.fillRect(0, 0, 740, 740);
+
+}

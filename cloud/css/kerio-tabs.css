@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* ktabs CSS Document */
+
+  #tabbed_box_1 {
+	margin: 0px auto 0px auto;
+	width:800px;
+  }
+  .ktabs {
+	margin:0px; padding:0px;
+	margin-top:5px;
+	margin-bottom:6px;
+  }
+  .ktabs li {
+	list-style:none;
+	display:inline;
+  }
+  .ktabs li {
+	background-color:#464c54;
+	background-image: url('../img/green-bg-texture.jpg?v=');
+	background-position:bottom;
+	color:#ffffff;
+    font-family:'Frutiger LT W01 65 Bold', Helvetica, Arial, sans-serif;
+	padding:8px 14px 8px 14px;
+	text-decoration:none;
+	font-size:10px;
+    cursor:pointer;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+  .ktabs li:hover {
+	background-image:none;
+	background-color:#589400;
+	border-color:#8dc03f;
+	color: #ffffff;
+  }
+  .ktabs li.active {
+	background-color:#ffffff;
+    background-image: none;
+	color:#000000;
+	border:1px solid #e4e4e4;
+	cursor: none;
+	border-bottom: 1px solid #ffffff;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+  .kcontent {
+	background-color:#ffffff;
+	padding:10px;
+	width:780px;
+    border-top:1px solid #e4e4e4;
+  }

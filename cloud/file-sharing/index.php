@@ -1,0 +1,13 @@
+<?php
+	//current directory for all scripts is DOCUMENT_ROOT, for better & expectable handling with files
+	chdir($_SERVER['DOCUMENT_ROOT']);
+	
+	$config = array(
+		"title" => "File Sharing | Samepage.io",
+		"isHome" => false,
+		
+		"pageSpecific" => "fileSharing" //filename in /page/head/specific/{pageSpecific}.php
+	);
+// 	echo getcwd();
+	include('./page/page.php');
+?>

@@ -1,0 +1,73 @@
+@charset "UTF-8";.createAccountWrapTop{width:850px;margin-left:auto;margin-right:auto;padding-top:30px;}
+.pricingWrapper{position:relative;width:560px;margin-left:auto;margin-right:auto;}
+.pricingWrapper_mid{position:relative;width:800px;margin-left:auto;margin-right:auto;}
+.pricingBlock{margin-top:15px;float:left;width:255px;height:220px;padding:0px 20px 20px 20px;background-color:#ffffff;border:1px solid #e4e4e4;text-align:center;-webkit-user-select:none;-webkit-touch-callout:none; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box;}
+.signupBlock{margin-left:auto;margin-right:auto;width:520px;height:200px;padding:0 0 20px 20px;background-color:#ffffff;border:1px solid #e4e4e4;text-align:center;}
+.pricingTitle{font-size:25px;font-family:'Frutiger LT W01 65 Bold', Helvetica, Arial, sans-serif;color:#0080b7;padding:15px;margin:0px;}
+.pricingCost{font-family:'Frutiger LT W01 65 Bold', Helvetica, Arial, sans-serif;font-size:25px;color:#333333;margin-top:10px;margin-bottom:15px;}
+.pricingStor{font-size:16px;font-weight:bold;color:#333333;padding:0px 0px 15px 15px;display:inline-block;}
+.pricingInfo{font-size:x-small;color:#666666;font-style:italic;padding:0px;margin-top:8px;}
+.pricingSpacer_20{float:left;width:40px;height:180px;}
+.pricingSpacer_80{float:left;width:80px;height:180px;}
+.pricingOptionsBlock{float:left;width:268px;height:140px;padding:0px 20px 20px 20px;background-color:#F8F8F8;border:1px solid #e4e4e4;}
+.pricingOptionsTitle{font-family:'Frutiger LT W01 65 Bold', Helvetica, Arial, sans-serif;font-size:16px;color:#0080b7;padding:15px 0px 0px 0px;margin:0px;}
+.pricingOptionsFieldLabel{font-size:17px;color:#616468;}
+.pricingOptionsTime{font-size:14px;color:#616468;margin-right:5px;}
+.pricing_numUsers{position:relative !important;width:100% !important;padding-bottom:27px !important;}
+.pricing_numUsers_input{float:right !important;}
+.pricing_storage{position:relative !important;width:100% !important;}
+.pricing_storage_input{float:right !important;margin-right:30px !important;}
+.pricing_storage_footnote{font-size:x-small !important;color:#616468 !important;font-style:italic !important;}
+.pricing_term{position:relative;}
+.pricing_term_con1{float:left;padding-right:20px;padding-left:30px;}
+.pricing_term_con2{float:left;}
+.createAccountWrapTop .kerioForm div{float:left;padding-right:10px;}
+.createAccountWrapTop .kerioForm{position:relative;}
+.createAccountWrapTop .kerioForm .button-row{padding-right:0px;}
+.cAWTclear{clear:both;}
+.cAWTclear_line{clear:both;width:90%;margin-left:auto;margin-right:auto;padding:20px 0px 20px 0px;color:#616468;}
+.createAccountWrapTop input[type=text],
+.createAccountWrapTop input[type=password],
+.createAccountWrapTop input[type=submit],
+.createAccountWrapTop textarea{background:#ffffff;width:100%;}
+.createAccountWrapTop textarea:hover{border:none;outline:none;}
+.createAccountWrapTop input:hover,
+.createAccountWrapTop select:hover{background-color:#ddeff7;}
+.createAccountWrapTop input:focus,
+.createAccountWrapTop select:focus{outline:none;background-color:#ffffff;}
+.createAccountWrapTop{left:0px;margin-left:0px;}
+.createAccountTop h4.freeSpace{display:none;}
+.createAccountTop .resendLink{color:#0086BB;text-decoration:underline;}
+.inline input,.inline label{display:inline-block !important;}
+.createAccountWrapTop fieldset{clear:both;overflow:auto;background:#ffffff;-moz-border-radius:4px;border-radius:4px;}
+.createAccountWrapTop legend{font-weight:bold;}
+.createAccountWrapTop input.error
+, .createAccountWrapTop select.error
+, .createAccountWrapTop textarea.error{background-color:#77002a;color:white;}
+.createAccountWrapTop .verificationAlert{color:#77002a;}
+.createAccountWrapTop input, .createAccountWrapTop textarea, .createAccountWrapTop select{z-index:0;padding:6px;margin:0;font:inherit;}
+.createAccountWrapTop input, .createAccountWrapTop select, .button-row input{-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+.focus{color:#8F8F8F;}
+.typing{color:#99B32D;}
+@media screen and (-webkit-min-device-pixel-ratio:0){.createAccountWrapTop input, .createAccountWrapTop textarea, .createAccountWrapTop select{padding:4px;}
+}
+.formMail{margin-bottom:20px;font-size:20px;}
+.createAccountInline h4{text-align:center;color:#FFFFFF;padding-top:30px;font-size:30px;}
+.createAccountInline h4.freeSpace{display:block;}
+.createAccountInline h4.emailAddress{display:none;}
+.createAccountInline .createAccountWrapTop{display:block;text-align:center;}
+.createAccountInline .createAccountWrapTop input{width:250px;}
+.createAccountInline .wide{color:#FFFFFF;padding:0 50px;text-align:center;}
+.createAccountInline .wide a{text-decoration:underline;}
+.createAccountInline .createAccountWrapTop .formMail,
+.createAccountInline .createAccountWrapTop .button-row,
+.createAccountInline .createAccountWrapTop .submitButton{display:inline;}
+.signup_mid_fieldrow{width:501px;margin-left:auto;margin-right:auto;float:none !important;}
+.verificationAlert{display:none;font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;font-size:12px;margin-top:-10px;}
+.checkEmailWrap{display:none;}
+.signuptextheader{font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;color:#000000;font-size:35px;padding-bottom:5px;margin-bottom:0px;font-weight:normal;letter-spacing:-1px;text-align:center;margin-top:28px;}
+.signuptextsubhead{font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;font-size:22px;margin-top:0px;font-weight:normal;letter-spacing:normal;text-align:center;}
+.askemail{padding:40px 0 35px;width:500px;margin-left:auto;margin-right:auto;color:#0080b7;font-size:22px;font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;}
+.blueglow{-webkit-box-shadow:0px 0px 10px 1px #0080b7;-moz-box-shadow:0px 0px 10px 1px #0080b7;box-shadow:0px 0px 10px 1px #0080b7; border: none;}
+.learnpricing{margin-top:32px;text-align:center;font-size:13px;}
+.learnpricing a{color:#1081B5;}

@@ -1,0 +1,24 @@
+.tooltipstyle {
+	margin-top:-100px;
+	margin-left:20px;
+	color:#FFFFFF !important;
+	position: absolute !important;
+	z-index: 9000 !important;
+	border: 1px solid #111 !important;
+	background-color: #000000 !important;
+	padding: 15px !important;
+	opacity: 0.85 !important;
+	text-align:left !important;
+	font-size:14px !important;
+	font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif !important;
+	width:180px !important;
+	border-radius:3px !important;
+	box-shadow:3px 3px 8px #231f20;
+
+
+}
+
+img {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
+}

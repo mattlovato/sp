@@ -1,0 +1,102 @@
+.popover {
+	position: absolute;
+	top:20px; left: 0;
+	width: 350px;
+	display: none;
+	background:none;
+	opacity:.85;
+	
+	
+}
+.popover.wider {
+	width: 340px;
+}
+.popover.large {
+	width: 470px;
+	max-height: 350px;
+}
+.popover .arrow, .popover .top-arrow {
+	position: absolute;
+	top: 0; left: 85%;
+	margin: -10px 0 0 -3px;
+	width: 0; height: 0;
+	border-top: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #121212;
+}
+.popover .bottom-arrow {
+	top: 100%; left: 85%;
+	margin: 0 0 0 -3px;
+	border-top: 5px solid #121212;
+	border-bottom: 5px solid transparent;
+}
+.popover .left-arrow {
+	top: 57px; left: -10px;
+	margin: -3px 0 0;
+	border-right: 5px solid #121212;
+	border-bottom: 5px solid transparent;
+}
+.popover .right-arrow {
+	top: 57px; left: 100%;
+	margin: -3px 0 0;
+	border-left: 5px solid #121212;
+	border-bottom: 5px solid transparent;
+	
+}
+.popover .wrap {
+	background: none;
+	border: 5px solid #121212;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow:3px 3px 8px #231f20;
+
+	
+}
+.popover .title {
+	font-family:'Frutiger LT W01 65 Bold', Helvetica, Arial, sans-serif;
+	background: #121212;
+	color: white;
+	font-size: 18px;
+	padding: 15px 0 0 15px;
+	height: 27px;
+	border: 5px solid #121212;
+
+}
+.popover .content {
+	padding: 0 15px 15px 15px;
+	font-family:'FrutigerLTW01-45Light', Helvetica, Arial, sans-serif;
+	background: #121212;
+	color:white;
+	max-height: 175px;
+	overflow: auto;
+	line-height: 20px;
+	font-size: 16px;
+	border: 3px solid #121212;
+
+	
+}
+
+.popover li,ul {
+	margin-left:-20px;
+	margin-top:10px;
+	list-style-type: none;
+	margin-bottom:0px;
+}
+
+.popover.large .content {
+	max-height: 285px;
+}
+
+hr {
+	margin-bottom:10px;
+	margin-top:-10px;
+	border: 0;
+    height: 1px;
+	background-color:white;
+    /*background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); 
+    background-image:      -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); */
+}

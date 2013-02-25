@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://samepage.io/</loc>
+</url>
+<url>
+  <loc>http://samepage.io/?signup</loc>
+</url>
+<url>
+  <loc>http://samepage.io/?pricing</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/same-page/</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/social-business/</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/file-sharing/</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/?privacy</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/data-security/</loc>
+</url>
+<url>
+  <loc>http://samepage.io/help/</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/kerio/</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/same-page/?signup</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/same-page/?pricing</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/file-sharing/?signup</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/file-sharing/?pricing</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/?signup</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/?pricing</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/?tos</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/?sla</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/?aup</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/?billing</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/terms/?dmca</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/data-security/?signup</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/data-security/?pricing</loc>
+</url>
+<url>
+  <loc>http://samepage.io/help/?signup</loc>
+</url>
+<url>
+  <loc>http://samepage.io/help/?pricing</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/kerio/?signup</loc>
+</url>
+<url>
+  <loc>http://samepage.io/cloud/kerio/?pricing</loc>
+</url>
+</urlset>
