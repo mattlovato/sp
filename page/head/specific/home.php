@@ -1,4 +1,4 @@
-<meta name="description" content="Samepage is a secure cloud-based file sharing and social collaboration platform designed to help teams communicate, share content, and manage projects.">
+<meta name="description" content="Samepage is a secure file sharing and social collaboration platform designed to help teams communicate, share content, and manage projects.">
 
 <script type="text/javascript">
 	
