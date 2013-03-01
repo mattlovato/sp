@@ -22,7 +22,7 @@
 	width:850px;
 	margin-left:auto;
 	margin-right:auto;
-	background-image:url('../img/opacitybg-green80.png?v=');
+	background-image:url('../img/opacitybg-green80.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');
 	height:48px;
 	overflow:hidden;
 	z-index:999;
@@ -77,7 +77,7 @@
 
 .subloginblock {
 	display:none;
-	background-image:url('../img/grey-bg-texture.jpg?v=');
+	background-image:url('../img/grey-bg-texture.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');
 	background-repeat: repeat;
 }
 
@@ -91,7 +91,7 @@
 
 
 .divider-bottom {
-	background-image: url('../img/divider-bottom.png?v=');
+	background-image: url('../img/divider-bottom.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');
 	width:100%;
 	height:2px;
 	background-size:100% 100%;
@@ -183,11 +183,11 @@ color:#ffffff;
 
 
 .on {
-	background-image:url('../img/opacitybg.png?v=');
+	background-image:url('../img/opacitybg.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');
 }
 
 .bluebg {
-	background-image:url('../img/opacitybg-blue80.png?v=');
+	background-image:url('../img/opacitybg-blue80.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');
 	}
 	
 .numberball {

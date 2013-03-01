@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^marketoData\.js(.*) /cloud/js/marketoData.php$1 [L]

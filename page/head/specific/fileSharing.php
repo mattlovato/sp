@@ -1,12 +1,11 @@
-<meta name="description" content="File sharing on Samepage allows you to securely store and share files online and synchronize them with your team's desktops, laptops, and mobile devices.">
-<meta name="keywords" content="online file sharing, transfer large files, secure file storage">
+<meta name="description" content="File sharing on Samepage allows you to not only store and share files online, but also synchronize them with your team's desktops, laptops, and mobile devices.">
 
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 			
 		$("#popover1").popover({
 			title: "A little context goes a long way",
-			content: "<ul><li><hr />In addition to sharing files, pages display the team's comments, tasks, and other details that aren't always included in the files. <br /><br /> <a href='/cloud/same-page/#content' class='bold'><img src='/cloud/img/plus-button.png?v=' style='width:12px;' alt='Learn more'/> Learn more</a> </li></ul>",
+			content: "<ul><li><hr />In addition to sharing files, pages display the team's comments, tasks, and other details that aren't always included in the files. <br /><br /> <a href='/cloud/same-page/#content' class='bold'><img src='/cloud/img/plus-button.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286' style='width:12px;' alt='Learn more'/> Learn more</a> </li></ul>",
 			trigger: 'manual',
 			position:'top'
 		});
@@ -41,7 +40,7 @@
 				
 		$("#popover6").popover({
 			title: "Comment on changes",
-			content: "<ul><li><hr />Any time you make a comment on a file, it's automatically sent to all the right people, link included. They'll arrive to find the entire conversation history right next to the file.<br /><br /><a href='/cloud/social-business/#comment' class='bold'><img src='/cloud/img/plus-button.png?v=' style='width:12px;' alt='Learn more'/> Learn more</a></li></ul>",
+			content: "<ul><li><hr />Any time you make a comment on a file, it's automatically sent to all the right people, link included. They'll arrive to find the entire conversation history right next to the file.<br /><br /><a href='/cloud/social-business/#comment' class='bold'><img src='/cloud/img/plus-button.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286' style='width:12px;' alt='Learn more'/> Learn more</a></li></ul>",
 			trigger: 'manual',
 			position:'bottom'
 		});

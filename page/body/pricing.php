@@ -33,7 +33,7 @@
 				<div class="tooltip tooltipstyle" style="display:block;position:absolute;display:none;">
 					<div class="inner" >Shared storage: Get 2 GB at signup. Add 500 MB for each invited user.<br /><br /> Max file size: 250 MB</div>
 				</div>
-				<img height="15" width="15" src="/cloud/img/tip.jpg?v=" style="padding-bottom:5px;"/>
+				<img height="15" width="15" src="/cloud/img/tip.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" style="padding-bottom:5px;"/>
 			</div>
 
 			<a href="" rel="expand[signup]"><div class="createbutton" style="margin-left:auto;margin-right:auto;margin-top:10px;">Start Here</div></a>
@@ -52,7 +52,7 @@
 				<div class="tooltip tooltipstyle" style="display:block;position:absolute;display:none;">
 					<div class="inner">Annual price: $100/user/year. <br /><br />Additional storage: 10 GB for $5/month or $50/year.</div>
 				</div>
-				<img height="15" width="15" src="/cloud/img/tip.jpg?v=" style="padding-bottom:5px;"/>
+				<img height="15" width="15" src="/cloud/img/tip.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" style="padding-bottom:5px;"/>
 			</div>
 
 

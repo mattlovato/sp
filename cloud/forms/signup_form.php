@@ -24,7 +24,7 @@ else {
 	<div class="signup_top askemail bold">Enter your email address.<br />You'll be up and running in minutes.</div>
 
 	<div class="formMail">
-		<input type="email" name="emailInput" value="" size="25" maxlength="100" class="emailInput"  placeholder="me@work.com" style="margin-left:15px;"/>
+		<input type="email" name="emailInput" value="" size="25" class="emailInput"  placeholder="me@work.com" style="margin-left:15px;"/>
 	</div> 
 	<div class="button-row">
 		<input class="token" name="token" type="hidden" value="webintro" />
@@ -38,7 +38,7 @@ else {
 </div>
 <div class="checkEmailWrap">
 	<div class="wide">
-		<span class="message">We've sent a verification link to <span class="emailText"></span>. If it doesn't arrive shortly, please check your spam folder or <a class="resendLink" href="#">resend the email</a>.</span>
+		<span class="message">We've sent a verification link to <span class="emailText"></span>. If it doesn't arrive in few minutes, please check your spam folder or <a class="resendLink" href="#">resend the email</a>.</span>
 	</div>
 </div>
 <?php

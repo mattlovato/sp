@@ -203,100 +203,94 @@ if ($detect->isMobile() && !$detect->isTablet()) {
 	
 
 //Compile Browser (and version if using desktop//
-if(!empty($SPbrowser_version)){
+if (!empty($SPbrowser_version)) {
 	$SPbrowser=$SPbrowser_type . ' (version ' . $SPbrowser_version . ')';
-	}
-	else
-	{
+}
+else {
 	$SPbrowser=$SPbrowser_type;	
-	}
-
-
+}
 
 
 //***** Determine Campaign ******/
 if (!isset($_SESSION['campaign'])) {
-    $_SESSION['campaign'] = isset($_GET["SPcid"]) ? $_GET["SPcid"] : "";
+	$_SESSION['campaign'] = isset($_GET["SPcid"]) ? $_GET["SPcid"] : "";
 }
 $SPcampaign = $_SESSION['campaign'];
 
 
 //***** Determine Landing Page ******/
 function curPageURL() {
- $pageURL = 'http';
- if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
- $pageURL .= "://";
- if ($_SERVER["SERVER_PORT"] != "80") {
-  $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
- } else {
-  $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
- }
- return $pageURL;
+	$pageURL = (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on") ? 'https' : 'http';
+	$pageURL .= "://";
+
+	if ($_SERVER["SERVER_PORT"] != "80") {
+	   $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"];
+	} else {
+	   $pageURL .= $_SERVER["SERVER_NAME"];
+	}
+
+	$pageURL .= $_SERVER["REQUEST_URI"];
+
+	return $pageURL;
 }
 
-if(!isset($_SESSION['landing_page']))
-{
-	$org_landing_page=curPageURL();
-	$parts =  explode ('?', $org_landing_page);
+if (!isset($_SESSION['landing_page'])) {
+	
+	$org_landing_page = curPageURL();
+	$parts = explode('?', $org_landing_page);
 	$clean_landing_page=$parts['0']; 
 	$_SESSION['landing_page'] = $clean_landing_page; 
 }
 $SPlandingPage = $_SESSION['landing_page'];
 
 
-
-
 //***** Determine REFERRAL URL ******/
-if(!isset($_SESSION['org_referer']))
-{
+if (!isset($_SESSION['org_referer'])) {
     $_SESSION['org_referer'] = $_SERVER['HTTP_REFERER'];
 }
+
 $SPreferringURL = $_SESSION['org_referer'];
-
-
-
-
-
-
-
 
 
 //***** Determine SEARCH TERM USED ******/
 
-if(!isset($_SESSION['']))
-{
+if (!isset($_SESSION['SPkeywords'])) {
 
-$parse = parse_url($_SERVER['HTTP_REFERER']);
-$se = $parse["host"];
-$raw_var = explode("&", $parse["query"] );
-foreach ($raw_var as $one_var) {
-    $raw = explode("=", $one_var);
-    $var[$raw[0]] = urldecode ($raw[1]);
-}
-$se = explode (".", $se);
-switch ($se[1]) {
-    case 'yahoo':
-        $SPkeywords = $var['p'];
-        break;
-    case 'aol':
-        $SPkeywords = $var['query'];
-        break;
-    default:
-        $SPkeywords = $var['q'];
-}
-unset($parse, $se, $raw_var, $one_var, $var);
+	$parse = parse_url($_SERVER['HTTP_REFERER']);
+	$se = $parse["host"];
+	$raw_var = isset($parse["query"]) ? explode("&", $parse["query"] ) : array();
+	
+	foreach ($raw_var as $one_var) {
+		$raw = explode("=", $one_var);
+		$var[$raw[0]] = urldecode ($raw[1]);
+	}
+	
+	$se = explode (".", $se);
+	$SPkeywords = isset($var['q']) ? $var['q'] : "";
 
-$_SESSION['SPkeywords'] = $SPkeywords;
+	if (isset($se[1])) {
+		
+		switch ($se[1]) {
+			case 'yahoo':
+				$SPkeywords = $var['p'];
+				break;
+			case 'aol':
+				$SPkeywords = $var['query'];
+				break;
+			default:
+				$SPkeywords = isset($var['q']) ? $var['q'] : "";
+		}
+	}
+
+	unset($parse, $se, $raw_var, $one_var, $var);
+	$_SESSION['SPkeywords'] = $SPkeywords;
 }
 
 $SPkeywords = $_SESSION['SPkeywords'];
 
 
-
-
-
 //***** Determine Signup Page ******/
-$SPsignupPage=curPageURL();
+$SPsignupPage = curPageURL();
 
 
 //***** Determine Marketo Cookie ******/

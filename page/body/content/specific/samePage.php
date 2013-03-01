@@ -8,11 +8,11 @@
 		<div class="subpara">
 			This is what makes Samepage so powerful. Having your shared files, calendars, tasks, and other collaboration tools on the same page as your team and its conversations is exactly what keeps everything <br />and everyone synchronized.</div>
 	</div>
-	<img src="/cloud/img/samepage-icon.png?v=" alt="" width="240" style="margin-left:70px;margin-bottom:-35px;"/> 
+	<img src="/cloud/img/samepage-icon.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" alt="" width="240" style="margin-left:70px;margin-bottom:-35px;"/> 
 
 	<div class="spacer"></div>
 
-	<div class="createAccountTop" id="greenbar" style="overflow:hidden;background-image:url('/cloud/img/bgstripe.jpg?v=');">
+	<div class="createAccountTop" id="greenbar" style="overflow:hidden;background-image:url('/cloud/img/bgstripe.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');">
       <div class="createAccountWrapTop">
         <div class="kerioForm signup_mid" >
           <div class="signup_mid bold" style="color:#ffffff;font-size:25px;padding-bottom:15px;text-align:center;width:100%">Sign up today &amp; get up to 10GB of file-sharing space free!</div>
@@ -44,17 +44,17 @@
     <ul id="slider1">  
 		<li >
 			<div class="screenshot-slide"> 
-				<img src="/cloud/img/page-screenshot-context1.jpg?v=" width="750"/>
+				<img src="/cloud/img/page-screenshot-context1.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 			</div>
 		</li>
         <li>
 			<div class="screenshot-slide"> 
-				<img src="/cloud/img/page-screenshot-context2.jpg?v=" width="750"/>
+				<img src="/cloud/img/page-screenshot-context2.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 			</div>
 		</li>
         <li>
 			<div class="screenshot-slide"> 
-				<img src="/cloud/img/page-screenshot-context3.jpg?v=" width="750"/>
+				<img src="/cloud/img/page-screenshot-context3.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 			</div>
 		</li>
 	</ul>
@@ -83,12 +83,12 @@
 		<ul id="slider2" >  
 			<li >
 				<div class="screenshot-slide"> 
-					<img src="/cloud/img/page-screenshot-sharing1.jpg?v=" width="750"/>
+					<img src="/cloud/img/page-screenshot-sharing1.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 				</div>
 			</li>
 			<li>
 				<div class="screenshot-slide" > 
-					<img src="/cloud/img/page-screenshot-sharing2.jpg?v=" width="750"/>
+					<img src="/cloud/img/page-screenshot-sharing2.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 				</div>
 			</li>
 		</ul>
@@ -120,17 +120,17 @@
 		<ul id="slider3" >  
 			<li >
 				<div class="screenshot-slide"> 
-					<img src="/cloud/img/social-screenshot-drilldown.jpg?v=" width="750"/>
+					<img src="/cloud/img/social-screenshot-drilldown.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 				</div>
 			</li>
 			<li>
 				<div class="screenshot-slide" > 
-					<img src="/cloud/img/page-screenshot-organize2.jpg?v=" width="750"/>
+					<img src="/cloud/img/page-screenshot-organize2.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 				</div>
 			</li>
 			<li>
 				<div class="screenshot-slide"> 
-					<img src="/cloud/img/page-screenshot-organize3.jpg?v=" width="750"/>
+					<img src="/cloud/img/page-screenshot-organize3.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 				</div>
 			</li>
 		</ul>
@@ -152,7 +152,7 @@
 	</div>
     <div class="screenshot-slide">
        	<div id="popover1" class="hidepopover" style="position:absolute;margin-left:600px;margin-top:305px;z-index:999;"></div>
-		<img src="/cloud/img/page-screenshot-mobile.jpg?v=" width="750"/>
+		<img src="/cloud/img/page-screenshot-mobile.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="750"/>
 
     </div>
 

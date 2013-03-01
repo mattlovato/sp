@@ -3,7 +3,7 @@
 	chdir($_SERVER['DOCUMENT_ROOT']);
 
 	$config = array(
-		"title" => "Samepage | File Sharing and Social Collaboration",
+		"title" => "Samepage.io | File Sharing and Social Collaboration by Kerio",
 		"isHome" => true,
 		
 		"pageSpecific" => "home" //filename in /page/head/specific/{pageSpecific}.php

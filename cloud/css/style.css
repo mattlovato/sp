@@ -7,7 +7,7 @@
 }
 
 BODY {
-	background: url('../img/lightDust.png?v=') #f7f7f7;
+	background: url('../img/lightDust.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286') #f7f7f7;
 	font-family: Helvetica, Arial;
 	color: #0086bb;
 }
@@ -15,13 +15,13 @@ BODY {
 #top {
 	width: 100%;
 	height: 38px;
-	background: #64a500 url('../img/hardDust.png?v=');
+	background: #64a500 url('../img/hardDust.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');
 	position: absolute;
 	top: 0;
 }
 
 #productLogo {
-	background: url('../img/logo.png?v=') no-repeat center center;
+	background: url('../img/logo.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286') no-repeat center center;
 	width: 140px;
 	height: 38px;
 	float: left;

@@ -9,12 +9,12 @@
       		Social is about smaller, faster, more frequent communication. Here, it's also about keeping the conversation organized, preserved, and easy to find. 
     	</div>
 	</div>
-	<img src="/cloud/img/comments-icon.png?v=" alt="" width="240" style="margin-left:70px;margin-bottom:-35px;"/> 
+	<img src="/cloud/img/comments-icon.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" alt="" width="240" style="margin-left:70px;margin-bottom:-35px;"/> 
 
 	<div class="spacer"></div>
 
 
-	<div class="createAccountTop" id="greenbar" style="overflow:hidden;background-image:url('/cloud/img/bgstripe.jpg?v=');">
+	<div class="createAccountTop" id="greenbar" style="overflow:hidden;background-image:url('/cloud/img/bgstripe.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');">
       <div class="createAccountWrapTop">
         <div class="kerioForm signup_mid" >
           <div class="signup_mid bold signup_mid_header" style="color:#ffffff;font-size:25px;padding-bottom:15px;text-align:center;width:100%">Sign up today &amp; get up to 10GB of file-sharing space free!</div>
@@ -41,7 +41,7 @@
 	</div>
     <div class="screenshot">
        	<div id="popover1" class="hidepopover" style="position:absolute;margin-left:555px;margin-top:355px;z-index:999;"></div>
-    	<img src="/cloud/img/social-screenshot-comment.jpg?v=" width="800"/>
+    	<img src="/cloud/img/social-screenshot-comment.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="800"/>
     </div>
 
 
@@ -61,7 +61,7 @@
 	</div>
 	<div class="<?php if ($SPdevice == 'Desktop') echo 'hideme' ?> screenshot"> 
        	<div id="popover2" class="hidepopover" style="position:absolute;margin-left:538px;margin-top:210px;z-index:999;"></div>
-    	<img src="/cloud/img/social-screenshot-history.jpg?v=" width="800"/>
+    	<img src="/cloud/img/social-screenshot-history.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="800"/>
 	</div>
 
 
@@ -80,7 +80,7 @@
 
    	<div class="<?php if ($SPdevice == 'Desktop') echo 'hideme' ?> screenshot">
       	<div id="popover3" class="hidepopover" style="position:absolute;margin-left:562px;margin-top:350px;z-index:999;"></div>
-	   	<img src="/cloud/img/social-screenshot-drilldown.jpg?v=" width="800"/>
+	   	<img src="/cloud/img/social-screenshot-drilldown.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="800"/>
 	</div>
 
 
@@ -99,7 +99,7 @@
 	</div>
 	<div class="<?php if ($SPdevice == 'Desktop') echo 'hideme' ?> screenshot">
          	<div id="popover4" class="hidepopover" style="position:absolute;margin-left:520px;margin-top:430px;z-index:999;"></div>
-    		<img src="/cloud/img/social-screenshot-newsfeed.jpg?v=" width="800"/>
+    		<img src="/cloud/img/social-screenshot-newsfeed.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="800"/>
 		</div>
         
         
@@ -118,18 +118,18 @@
     </div>
 	<div class="<?php if ($SPdevice == 'Desktop') echo 'hideme' ?> screenshot">
        	<div id="popover5" class="hidepopover" style="position:absolute;margin-left:353px;margin-top:299px;z-index:999;"></div>
-    	<img src="/cloud/img/filesharing-screenshot-comment.jpg?v=" width="800"/>
+    	<img src="/cloud/img/filesharing-screenshot-comment.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="800"/>
 	</div>
 	
 	<div class="nextpage">    
-		<div style="z-index:999;background-image: url('/cloud/img/preheader-shadow.png?v=');background-repeat:repeat-x;width:850px;position:absolute;">&nbsp;</div>
+		<div style="z-index:999;background-image: url('/cloud/img/preheader-shadow.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');background-repeat:repeat-x;width:850px;position:absolute;">&nbsp;</div>
 	   <br />
 	   <!-- LEARN MORE ABOUT SAMEPAGE -->
 		<div class="textblock">
 			<h2>Now bring it all together</h2>
 			<h3>Build a page to organize your files and conversations </h3>
 			<div class="subtext">
-				<a href="/cloud/same-page/"><img src="/cloud/img/samepage-icon.png?v=" width="150" height="141" alt="Samepage" border="none"/> </a>
+				<a href="/cloud/same-page/"><img src="/cloud/img/samepage-icon.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" width="150" height="141" alt="Samepage" border="none"/> </a>
 				<br /><br />
 			</div>
 

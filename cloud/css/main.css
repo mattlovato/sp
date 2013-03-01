@@ -48,21 +48,21 @@ H2 { font-size: 14px;}
 .page-top, .page-bottom { height: 30px;}
 .page-top { 
 	margin-top: 30px;
-	background: url("images/bg/page-top.png?v=") no-repeat left top; 
+	background: url("images/bg/page-top.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286") no-repeat left top; 
 	_background: none;
-	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg/page-top.png?v=', sizingMethod='image');
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg/page-top.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286', sizingMethod='image');
 }
 .page-bottom { 
-	background: url("images/bg/page-bottom.png?v=") no-repeat left top; 
+	background: url("images/bg/page-bottom.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286") no-repeat left top; 
 	_background: none;
-	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg/page-bottom.png?v=', sizingMethod='image');
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg/page-bottom.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286', sizingMethod='image');
 }
 .page-content {
 	font-size: 12px;
 	color: #ccc;
-	background: url("images/bg/page-bg.png?v=") repeat-y left top; 
+	background: url("images/bg/page-bg.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286") repeat-y left top; 
 	_background: none;
-	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg/page-bg.png?v=', sizingMethod='scale');
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/bg/page-bg.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286', sizingMethod='scale');
 }
 .page-wrapper { 
 	float: left;

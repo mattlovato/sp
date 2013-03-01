@@ -10,18 +10,18 @@
 		<div class="subpara">
 
 
-			Samepage sits on a secure Tier III data structure. With greater than 99.99% server uptime and redundant property, network, and backup protection, you can store your most sensitive materials on Samepage without worry. 
+			Samepage sits on a secure Tier III data structure. With greater than 99.9999% server uptime and redundant property, network, and backup protection, you can store your most sensitive materials on Samepage without worry. 
 
 
 		</div>
 	</div>
-	<img src="/cloud/img/security.jpg?v=" alt="" width="330" style="margin-left:20px;margin-bottom:-35px;"/> 
+	<img src="/cloud/img/security.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" alt="" width="330" style="margin-left:20px;margin-bottom:-35px;"/> 
 
 
 
 	<div style="position:absolute;margin-left:535px;margin-top:45px;"><a href="https://safeharbor.export.gov/list.aspx" target="_blank" style="color:#1081B5; font-size:12px;">We self-certify compliance with</a>
-		<br /><a href="http://www.export.gov/safeharbor"><img src="/cloud/img/safeharbor.jpg?v=" alt="SAFEHARBOR"  border="none"/></a><br /><br />
-		<img src="/cloud/img/ssae.jpg?v=" alt="SSAE"  border="none" width="150" height="130" hspace="50px"/>
+		<br /><a href="http://www.export.gov/safeharbor"><img src="/cloud/img/safeharbor.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" alt="SAFEHARBOR"  border="none"/></a><br /><br />
+		<img src="/cloud/img/ssae.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" alt="SSAE"  border="none" width="150" height="130" hspace="50px"/>
 	</div>
 
 
@@ -35,6 +35,7 @@
         Pre-action fire suppression system<br />
         Multi-Homed BGP network<br />
         N+1 power and N+1 cooling<br />
+        99.9% network uptime<br />
         Locked cabinet or caged racks<br />
         24-hour data center monitoring<br />
         24-hour onsite data center technicians<br />

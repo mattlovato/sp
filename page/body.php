@@ -4,6 +4,7 @@
 	<?php 
 		include ('./page/body/top.php');
 		include ('./page/body/menu.php');
+		include ('./page/body/hideMenu.php');
 		include ('./page/body/accountBox.php');
 		include ('./page/body/preHeaderShadow.php');
 		
@@ -14,8 +15,6 @@
 		}
 		else { //subpage
 			include ('./page/body/content/sub.php');
-			include ('./page/body/hideMenu.php');
-
 		}
 	?>
     </div>

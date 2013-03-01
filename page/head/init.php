@@ -2,7 +2,9 @@
 	if ($config['isHome']) { ?>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				kerio.register.InviteCompany.init(['.signupBlock']);
+				if (window.kerio && kerio.register && kerio.register.InviteCompany) {
+					kerio.register.InviteCompany.init(['.signupBlock']);
+				}
 			});
 		</script>
 	<?php
@@ -10,7 +12,9 @@
 	else { ?>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				kerio.register.InviteCompany.init(['.signupBlock', '#greenbar']);
+				if (window.kerio && kerio.register && kerio.register.InviteCompany) {
+					kerio.register.InviteCompany.init(['.signupBlock', '#greenbar']);
+				}
 			});
 		</script>
 	<?php
@@ -37,30 +41,13 @@
 	
 	//TODO: preload not needed at all, instead use css image positioning & safe some trafic
 	$(document).ready(function() {
-		MM_preloadImages('/cloud/img/kerio-blue.png?v=', '/cloud/img/hidelip-over.png?v=');
+		MM_preloadImages('/cloud/img/kerio-blue.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286', '/cloud/img/hidelip-over.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286');
 	});
 	
-	
-//	$('document').ready(function() {
-//		var params = kerio.register.RegisterUtils.getUrlParameters();
-//		//when going from login page through 'create an account' link, open the registration form automatically
-//		if (params.signup !== undefined) {
-//			animatedcollapse.toggle('signuptext');
-//			animatedcollapse.toggle('signup');
-//		}
-//		//when going from login page through 'pricing' link, open the pricing div automatically
-//		if (params.pricing !== undefined) {
-//			animatedcollapse.toggle('signuptext');
-//			animatedcollapse.toggle('pricing');
-//		}
-//	});
-	
-	//TODO: use local munchkin
-	document.write(unescape("%3Cscript src='" + document.location.protocol +
-		"//munchkin.marketo.net/munchkin.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
+<script type="text/javascript" src="/cloud/js/munchkin.js"></script>
 <script>
-	if (Munchkin) {
+	if (window.Munchkin) {
 		Munchkin.init('773-TBA-942');
 	}
 </script>

@@ -15,7 +15,7 @@
 
 		</div>
 	</div>
-	<img src="/cloud/img/phone.jpg?v=" alt="" width="240" style="float:right;margin-bottom:-45px;"/> 
+	<img src="/cloud/img/phone.jpg?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" alt="" width="240" style="float:right;margin-bottom:-45px;"/> 
 
 	<div class="spacer"></div>
 

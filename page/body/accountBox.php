@@ -1,7 +1,7 @@
 <div id="signuptext" class="loginblock">
     <div class="login-frame">
       <div class="createaccount createAccountTop">
-		<div class="signuptextheader">Create a free Samepage Starter Plan account</div>
+		<div class="signuptextheader">Create a free Starter Plan account</div>
         <div class="signuptextsubhead">Unlimited users. Up to 10 GB. For as long as you want.</div>
    	  </div>
     </div>
@@ -13,7 +13,7 @@
         <div class="createaccount createAccountTop">
           <?php include('./page/body/pricing.php'); ?>
    	  	</div>
-        <div class="hidelipdiv"><a href="" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hidelip1','','/cloud/img/hidelip-over.png?v=',1)" rel="collapse[signuptext,pricing]"><img name="hidelip1" src="/cloud/img/hidelip-up.png?v=" alt="Hide this" class="hidelipimg" width="65" height="27"></a></div>
+        <div class="hidelipdiv"><a href="" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hidelip1','','/cloud/img/hidelip-over.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286',1)" rel="collapse[signuptext,pricing]"><img name="hidelip1" src="/cloud/img/hidelip-up.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" alt="Hide this" class="hidelipimg" width="65" height="27"></a></div>
       </div>
   	</div>
     
@@ -29,6 +29,6 @@
             </div>
           </div>
         </div>
-        <div class="hidelipdiv"><a href="" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hidelip2','','/cloud/img/hidelip-over.png?v=',1)" rel="collapse[signuptext,signup]"><img name="hidelip2" src="/cloud/img/hidelip-up.png?v=" alt="Hide this" class="hidelipimg" width="65" height="27"></a></div>
+        <div class="hidelipdiv"><a href="" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('hidelip2','','/cloud/img/hidelip-over.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286',1)" rel="collapse[signuptext,signup]"><img name="hidelip2" src="/cloud/img/hidelip-up.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" alt="Hide this" class="hidelipimg" width="65" height="27"></a></div>
       </div>
   	</div>

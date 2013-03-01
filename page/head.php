@@ -1,6 +1,6 @@
 <?php
 include('./scripts/detectors.php');
-include('./scripts/geoip.php');
+//include('./scripts/geoip.php'); //TODO: temporarily commented by purpose, the only geo things are loaded by /cloud/js/marketoData.php script
 
 ?>
 <head>
@@ -9,9 +9,10 @@ include('./scripts/geoip.php');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
 	<META NAME="ROBOTS" CONTENT="INDEX,FOLLOW" />
-	<meta property="og:image" content="http://samepage.io/cloud/img/socialLogo.png?v="/>
+	<link rel="image_src" href="http://samepage.io/cloud/img/socialLogo.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286" type="image/png" />
+	<meta property="og:image" content="http://samepage.io/cloud/img/socialLogo.png?v=4ed595a346c1db8057c9911e8d6c0d65617d6286"/>
 
-	<title><?php echo ($config['title'] ? $config['title'] : "Samepage | File Sharing and Social Collaboration"); ?></title>
+	<title><?php echo ($config['title'] ? $config['title'] : "Samepage.io | File Sharing and Social Collaboration by Kerio"); ?></title>
 
 	<?php
 	include('./page/head/sources.php'); // CSS & JS files
@@ -27,6 +28,6 @@ include('./scripts/geoip.php');
 	
 	include ('./page/head/afterInit.php'); 
 	
-	include('./scripts/marketoData.php');
+	//include('./scripts/marketoData.php');
 	?>
 </head>

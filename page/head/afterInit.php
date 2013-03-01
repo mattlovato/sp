@@ -1,6 +1,16 @@
 <script type="text/javascript">
 	$('document').ready(function() {
-		var params = kerio.register.RegisterUtils.getUrlParameters();
+		var 
+			matchGroup,
+			pl     = /\+/g,  //
+			search = /([^&=]+)=?([^&]*)/g,
+			decode = function (s) { return decodeURIComponent(s.replace(pl, " ")); },
+			query  = window.location.search.substring(1),
+			params = {};
+
+		while ((matchGroup = search.exec(query))) {
+			params[decode(matchGroup[1])] = decode(matchGroup[2]);
+		}
 		//when going from login page through 'create an account' link, open the registration form automatically
 		if (params.signup !== undefined) {
 			animatedcollapse.toggle('signuptext');
